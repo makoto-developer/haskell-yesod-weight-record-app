@@ -2,11 +2,11 @@ name:                weight-recorder
 version:             0.1.0.0
 -- synopsis:
 -- description:
-homepage:            https://github.com/githubuser/weight-recorder#readme
-license:             BSD3
+homepage:            https://github.com/makoto-engineer/haskell-yesod-weight-record-app/
+license:             none
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
+author:              makoto-engineer
+maintainer:          -
 copyright:           2022 Author name here
 category:            Web
 build-type:          Simple

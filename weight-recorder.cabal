@@ -17,22 +17,22 @@ executable weight-recorder
   hs-source-dirs:      app
   main-is:             Main.hs
   default-language:    Haskell2010
-  build-depends:       base >= 4.7 && < 5,
-                       bcrypt,
-                       bytestring,
-                       filepath,
-                       HDBC,
-                       HDBC-sqlite3,
-                       http-types,
-                       Spock,
-                       mustache,
-                       persistable-record,
-                       relational-query-HDBC,
-                       relational-query,
-                       resource-pool,
-                       text,
-                       time,
-                       transformers,
-                       wai,
-                       mtl
+  build-depends:       base >= 4.7 && < 5
+                     , bcrypt
+                     , bytestring
+                     , filepath
+                     , HDBC
+                     , HDBC-sqlite3
+                     , http-types
+                     , Spock
+                     , mustache
+                     , persistable-record
+                     , relational-query-HDBC
+                     , relational-query
+                     , resource-pool
+                     , text
+                     , time
+                     , transformers
+                     , wai
+                     , mtl
   ghc-options:         -Wall

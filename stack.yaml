@@ -41,6 +41,11 @@ packages:
 #
 extra-deps:
   - HDBC-sqlite3-2.3.3.1
+  - Spock-0.14.0.0
+  - Spock-core-0.14.0.0
+  - reroute-0.6.0.0
+  - stm-containers-1.2
+  - stm-hamt-1.2.0.7
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
